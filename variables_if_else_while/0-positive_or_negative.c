@@ -8,16 +8,16 @@
  */
 int main(void)
 {
-    int n; // Cambié ":" a ";"
+    int n;
 
     srand(time(0));
     n = rand() - RAND_MAX / 2;
     if (n > 0)
-        printf("%d is positive\n", n); // Cambié "m" a "n"
+        printf("%d is positive\n", n);
     else if (n == 0)
         printf("%d is zero\n", n);
     else
-        printf("%d is negative\n", n); // Agregué punto y coma al final
+        printf("%d is negative\n", n);
 
     return (0);
 }
