@@ -12,8 +12,9 @@ char c;
 c = 'a';
 while 
 (c <= 'z') {
-putcher(c);
-c++; }
+putchar(c);
+c++; 
+}
 putchar('\n');
 return (0);
 }
