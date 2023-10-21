@@ -10,13 +10,13 @@ char c;
 char d;
 
 c = 'a';
-d = 'z';
+d = 'A';
 while
 (c <= 'z') {
 putchar(c);
 c++;  }
 while
-(d <= 'z') {
+(d <= 'Z') {
 putchar(d);
 d++; }
 putchar('\n');
