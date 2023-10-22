@@ -6,7 +6,7 @@
  * Return: 1 for lowercase character or 0 for anything else
  */
 
-int :isalpha(int c)
+int isalpha(int c)
 {
 if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 {
