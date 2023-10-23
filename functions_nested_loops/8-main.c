@@ -8,5 +8,5 @@
 int main(void)
 {
     jack_bauer();
-    return 0;
+    return (0);
 }
