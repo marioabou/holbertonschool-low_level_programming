@@ -23,6 +23,6 @@ if (num == 100)
 continue;
 printf(" ");
 }
-prinf("\n");
+printf("\n");
 return (0);
 }
